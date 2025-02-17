@@ -51,7 +51,4 @@ header p {
 #challenges {
   max-width: 50rem;
   margin: 3rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
 }
