@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stop-the-timer/static/css/main.b4b34193.css",
+    "main.js": "/stop-the-timer/static/js/main.b3138628.js",
+    "index.html": "/stop-the-timer/index.html",
+    "main.b4b34193.css.map": "/stop-the-timer/static/css/main.b4b34193.css.map",
+    "main.b3138628.js.map": "/stop-the-timer/static/js/main.b3138628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4b34193.css",
+    "static/js/main.b3138628.js"
+  ]
+}
