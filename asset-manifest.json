@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/stop-the-timer/static/css/main.b4b34193.css",
-    "main.js": "/stop-the-timer/static/js/main.b3138628.js",
+    "main.css": "/stop-the-timer/static/css/main.1d2b1680.css",
+    "main.js": "/stop-the-timer/static/js/main.73e1a7a8.js",
     "index.html": "/stop-the-timer/index.html",
-    "main.b4b34193.css.map": "/stop-the-timer/static/css/main.b4b34193.css.map",
-    "main.b3138628.js.map": "/stop-the-timer/static/js/main.b3138628.js.map"
+    "main.1d2b1680.css.map": "/stop-the-timer/static/css/main.1d2b1680.css.map",
+    "main.73e1a7a8.js.map": "/stop-the-timer/static/js/main.73e1a7a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4b34193.css",
-    "static/js/main.b3138628.js"
+    "static/css/main.1d2b1680.css",
+    "static/js/main.73e1a7a8.js"
   ]
 }
