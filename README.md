@@ -14,45 +14,56 @@ Time-Stop Challenge is an interactive React.js game that tests your sense of tim
 
     ✅ Dynamic Scoring: The app calculates and displays your score based on the remaining time when you stop the timer.
 
-    ✅ Interactive Modal: A modal shows your result, including whether you lost and the exact time remaining. The modal is rendered at the top of the DOM using a React Portal, ensuring it is never overlapped by other UI elements.
+    ✅ Interactive Modal: A modal shows your result, including whether you lost and the exact time remaining. 
+       The modal is rendered at the top of the DOM using a React Portal, ensuring it is never overlapped by 
+       other UI elements.
 
-    ✅ Player Name Setup: A simple player component allows you to set your name, which is then displayed as a welcome message. 📝
+    ✅ Player Name Setup: A simple player component allows you to set your name, which is then displayed as a welcome 
+       message.
 
 ## 🚀 Technical Highlights
 
-React Hooks:
-useRef: Used for storing mutable values (e.g., timer and input references) without triggering re-renders.
-useState: Used for tracking state (e.g., time remaining, player name) that updates the UI.
-useImperativeHandle: Exposes imperative methods (like clear() on the form and open() on the modal) to parent components.
-React Portals: Ensures that the modal is rendered at the top of the DOM tree for better structure and to avoid any overlay issues.
+### useRef: 
+Used for storing mutable values (e.g., timer and input references) without triggering re-renders.
+
+### useState: 
+Used for tracking state (e.g., time remaining, player name) that updates the UI.
+
+### useImperativeHandle: 
+Exposes imperative methods (like clear() on the form and open() on the modal) to parent components.
+
+### React Portals: 
+Ensures that the modal is rendered at the top of the DOM tree for better structure and to avoid any overlay issues.
 
 ## 🔧 How It Works
 
 TimerChallenge Component:
 
-Starts a timer using setInterval to update the remaining time.
-When the timer is stopped (or when time runs out), the modal is triggered.
-The modal shows whether you lost and the exact time left, and calculates your score based on your performance.
+1. Starts a timer using setInterval to update the remaining time.
+2. When the timer is stopped (or when time runs out), the modal is triggered.
+3. The modal shows whether you lost and the exact time left, and calculates your score based on your performance.
+
 ResultModal Component:
 
-Uses useImperativeHandle and a portal to expose an open() method.
-Displays the target time, remaining time (formatted to two decimal places), and user score.
+1. Uses useImperativeHandle and a portal to expose an open() method.
+2. Displays the target time, remaining time (formatted to two decimal places), and user score.
+
 Player Component:
 
-Allows the user to set and display their name using useRef and useState.
+1. Allows the user to set and display their name using useRef and useState.
 
 ## 🦋 Installation project
 
 **Clone the project:**
 
 ```
-git clone https://github.com/OllaWilk/Tic-tac-toe-react.git
+git clone https://github.com/OllaWilk/stop-the-timer.git
 ```
 
 **Go to the project directory:**
 
 ```
-cd Tic-tac-toe-react
+cd stop-the-timer
 ```
 
 **Install dependencies:**
