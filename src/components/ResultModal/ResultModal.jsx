@@ -1,9 +1,19 @@
-import React, { forwardRef } from 'react';
+import React, { forwardRef, useImperativeHandle, useRef } from 'react';
 import './ResultModal.css';
 
 export const ResultModal = forwardRef(({ result, targetTime }, ref) => {
+  const myDialog = useRef(null);
+
+  useImperativeHandle(ref, () => {
+    return {
+      open() {
+        myDialog.current.showModal();
+      },
+    };
+  });
+
   return (
-    <dialog ref={ref} className='result-modal'>
+    <dialog ref={myDialog} className='result-modal'>
       <h2>You {result}</h2>
       <p>
         The target time was <strong>{targetTime}</strong> seconds.
